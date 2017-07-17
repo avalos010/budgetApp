@@ -67,3 +67,12 @@ input,select {
   margin: auto;
   font-family: 'Acme', sans-serif;
 }
+@media(max-width:500px) {
+ input,select {
+    display: block;
+    margin: auto;
+  }
+  select,input[type="button"] {
+    width: 155px;
+  }
+}
