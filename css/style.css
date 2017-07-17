@@ -1,0 +1,69 @@
+.inputs {
+  text-align: center;
+  margin-top: 5%;
+}
+.coming {
+  width: 48%;
+  float: left;
+}
+h1 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+.going {
+  width: 48%;
+  float: right;
+}
+.lists {
+  padding: 20px;
+  text-align: center;
+}
+.current-money {
+  height: 150px;
+  background: #e52933;
+  text-align: center;
+}
+.current-money h2 {
+ color: #fff;
+  padding: 25px;
+}
+
+.current-money p {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.coming-list li,.going-list li {
+  list-style-type: none;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.plus {
+  font-weight: bold;
+  color: green;
+}
+.minus {
+  font-weight: bold;
+  color: red;
+}
+
+.submit,select {
+  background: #00658f;
+  color: #fff;
+  height: 30px;
+}
+input,select {
+  height: 25px;
+}
+.pos {
+  background: green;
+}
+.neg {
+  background: red;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Acme', sans-serif;
+}
